@@ -1,102 +1,221 @@
-<section class="hero">
-    <div class="overlay"></div><header class="header">
-    <div class="container">
-        <div class="logo">
-            <a href="#">PROTY</a>
-        </div>
-        
-
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Properties</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Placement</a></li>
-                <li><a href="#">Training</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        
-
-        <div class="header-btn">
-            <a href="#" class="btn-login">Sign In</a>
-            <a href="#" class="btn-primary">Admission site</a>
-        </div>
-    </div>
-</header>
-    
-
-    <div class="container hero-content">
-      
-          <link rel="stylesheet" href="style.css">
-</head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>welcome everyone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
 
-<style>
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    img{
-        width:100vw;
-        height:80vh;
-       
-        display:block;
-    }
-</style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: blueviolet;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #444;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            padding: 15px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background-color: #714e37;
+        }
+
+        /* Main Content */
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Image Gallery */
+        .gallery {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .gallery img {
+                width: 100%;
+                max-width: 100px;
+            }
+        }
+
+        .a2 {
+            display: flex;
+        }
+        .a2 div {
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
 
-    <img src="kichu.webp" alt="Full Screen Image">
+    <!-- Header -->
+    <header>
+        <h1>Home Apartments</h1>
+        <p>Welcome to Home Apartmets</p>
+    </header> <style>
+    <head>
+  <style>
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 32px;
+      font-weight: bold;
+      font-family: Arial;
+      color: #333;
+      gap: 10px;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="logo">
+    MyLogo
+  </div>
 
 </body>
 </html>
-<body>
 
-        <h1>
-            Discover The Perfect
-            Future For You
-        </h1>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-        <p>
-            Every lecture is a step closer to your future
-        </p>
+<div>
+    <h3>Find your Future Home Here</h3> 
+    
+</div>
 
-        <div class="hero-buttons">
-            <a href="#" class="btn-primary">Explore Classrooms</a>
-            <a href="#" class="btn-outline">Contact Us</a>
+<div class="a2">
+    <div>
+        <a>
+        <div>
+            <img src="download.jpg" alt="downloaded image">
         </div>
-
-        <!-- Property Search -->
-        <div class="search-box">
-            <form>
-                <input type="text" placeholder="Location">
-
-                <select>
-                    <option>CSE</option>
-                    <option>Civil</option>
-                    <option>Mechanical</option>
-                    <option>ECE</option>
-                </select>
-
-                <select>
-                    <option>Fees Strucutre</option>
-                    <option>100K-150k</option>
-                    <option>80k - 120k</option>
-                    <option>160k</option>
-                </select>
-
-                <button type="submit">
-                    Search
-                </button>
-            </form>
-        </div>
+        <div>Office Property</div>
+        </a>
     </div>
-</section>
+      <div>
+        <a>
+        <div>
+            <img src="kichu.webp" width="278px" height="172px" alt="downloaded image">
+        </div>
+        <div>Office Property</div>
+        </a>
+    </div>
+     <div>
+        <a>
+        <div>
+            <img src="OIP (4).jpg" width="278px" height="172px" alt="downloaded image">
+        </div>
+        <div>Office Property</div>
+        </a>
+    </div>
+  
+</div>
+
+
+
+
+    <!-- Body -->
+    <div class="container">
+
+        <div class="content">
+            <h2>About Us</h2>
+            <p>
+An apartment becomes home the moment you stop noticing the rent and start noticing the life.            </p>
+        </div>
+
+        <div class="content">
+            <h2>Image Gallery</h2>
+
+            <div class="gallery">
+                <img src="OIP (1).jpg" alt="Image 1">
+                <img src="OIP (2).jpg" alt="Image 2">
+                <img src="OIP (3).jpg" alt="Image 3">
+                <img src="OIP.jpg" alt="Image 4">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
